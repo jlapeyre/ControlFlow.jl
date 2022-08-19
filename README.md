@@ -2,3 +2,16 @@
 
 [![Build Status](https://github.com/jlapeyre/ControlFlow.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/jlapeyre/ControlFlow.jl/actions/workflows/CI.yml?query=branch%3Amain)
 [![Coverage](https://codecov.io/gh/jlapeyre/ControlFlow.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/jlapeyre/ControlFlow.jl)
+
+
+Provides macros for control flow
+* `@dotimes n body`
+* `@until cond body`
+
+
+### Other packages with control flow macros
+
+* [Multibreak.jl](https://github.com/GunnarFarneback/Multibreak.jl)
+* [Lazy.jl](https://github.com/MikeInnes/Lazy.jl)
+
+See also matching packages. For example Match.jl and MLStyle.jl
