@@ -1,6 +1,4 @@
 using ControlFlow
-using Test
+using ReTestItems
 
-@testset "ControlFlow.jl" begin
-    # Write your tests here.
-end
+runtests()
